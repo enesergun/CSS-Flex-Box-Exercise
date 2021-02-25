@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: #1f222c;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    width: calc(50% - 20px);
+    height: 200px;
+    background-color: #474c5a;
+    border-radius: 10px;
+    color: #85E6FA;
+}
+
+.icon {
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: currentColor;
+}
+
+.check {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
